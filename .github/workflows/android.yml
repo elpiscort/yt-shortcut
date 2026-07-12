@@ -13,7 +13,7 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
     - name: Generate Gradlew
-      run: gradle wrapper --gradle-version 8.4
+      run: gradle wrapper --gradle-version 8.6
     - name: Build with Gradle
       run: ./gradlew :app:assembleDebug
     - name: Upload APK
