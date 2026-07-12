@@ -1,4 +1,19 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.2.2'
+    }
+}
+
 apply plugin: 'com.android.application'
+
+repositories {
+    google()
+    mavenCentral()
+}
 
 android {
     namespace 'com.example.ytshortcut'
