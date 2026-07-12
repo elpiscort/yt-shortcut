@@ -1,9 +1,9 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
+
 android {
     namespace 'com.example.ytshortcut'
     compileSdk 34
+    
     defaultConfig {
         applicationId "com.example.ytshortcut"
         minSdk 21
